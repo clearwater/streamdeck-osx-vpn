@@ -1,0 +1,47 @@
+{
+  "Actions": [
+    {
+      "Icon": "actionIcon", 
+      "Name": "VPN", 
+      "States": [
+        {
+          "Image": "disconnected",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        },
+        {
+          "Image": "connecting",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        },
+        {
+          "Image": "connected",
+          "TitleAlignment": "middle", 
+          "FontSize": "16"
+        }
+      ], 
+      "SupportedInMultiActions": false,
+      "Tooltip": "Monitor and control VPN status.", 
+      "UUID": "au.com.clearwater.osxvpn.action"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "Clearwater Software", 
+  "CodePath": "main.js", 
+  "PropertyInspectorPath": "property_inspector.html",
+  "Description": "Monitor and control VPN status.", 
+  "Name": "OSX VPN",
+  "Icon": "pluginIcon", 
+  "URL": "https://www.clearwater.com.au", 
+  "Version": "1.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+    }
+}
