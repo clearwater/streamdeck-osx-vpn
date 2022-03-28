@@ -6,6 +6,7 @@
 
 `osxvpn` shows the current connection status.  Pressing the key will toggle the VPN connection state.
 
+![](osxvpn.gif)
 
 # Features
 
